@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s036ssattv",
+  "description": "https://v2.scrimba.com/s036ssattv",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
