@@ -126,6 +126,17 @@ img {
 .add_circle:hover {
     opacity: 0.5;
 }
+.remove_circle {
+    color: #111827; /* Dark gray */
+    width: 1rem;
+    margin-left: 1.875rem;
+    margin-right: 0.625rem;
+    cursor: pointer;
+}
+
+.remove_circle:hover {
+    opacity: 0.5;
+}
 
 /* Title Styling */
 .title {
