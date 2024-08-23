@@ -36,7 +36,7 @@
     if(search_btn) {
         search_btn.addEventListener('click', () => {
             mainIndexPage.innerHTML = ''
-            fetch(`http://www.omdbapi.com/?&apikey=74d85902&s=${searchInput.value}`)
+            fetch(`https://www.omdbapi.com/?&apikey=74d85902&s=${searchInput.value}`)
             .then(res => res.json())
             .then(data => {
                 if (data.Response == "True") {
